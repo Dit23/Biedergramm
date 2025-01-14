@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biedergramm</title>
+
+    <script src="https://kit.fontawesome.com/8482ce4752.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #262626;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: #262626;
+        }
+
+        header .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+
+        header .search-bar input {
+            width: 100%;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        header .icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        header .icons i {
+            margin-left: 10px;
+        }
+
+        #posts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #posts img {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+        }
+
+        footer a {
+            color: #3897f0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">Biedergramm</div>
+    <div class="search-bar">
+        <input type="text" placeholder="Suchen...">
+    </div>
+    <div class="icons">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-message"></i>
+        <i class="fa-solid fa-user"></i>
+    </div>
+</header>
+<div id="posts">
+    <img src="First_post.png" alt="Post 1">
+    <img src="Second_Post.png" alt="Post 2">
+    <img src="third_post.png" alt="Post 3">
+    <img src="zeoob.com_ltea9chrf9_photo.png" alt="Post 4">
+    <img src="Screenshot_From_2025-01-14_09-58-52.png" alt="Post 4">
+</div>
+<footer>
+    <p>© 2025 Biedergramm. Alle Rechte vorbehalten. | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+</footer>
+</body>
+</html>
